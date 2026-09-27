@@ -3,9 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --brand: #0E9F82;        /* фирменный зелёно-бирюзовый */
-  --brand-dark: #0A6F5B;
-  --brand-soft: #E3F4EF;
+  --brand: #027E7C;        /* бирюзово-зелёный с логотипа кандидата (волна), менять здесь */
+  --brand-dark: #015F5D;
+  --brand-soft: #E0F1F0;
   --sea: #1B7FA3;          /* море Нячанга */
   --sun: #F2B544;          /* песок и солнце, акцент */
   --coral: #E8674A;        /* горячие заявки, тревога */
