@@ -1,0 +1,35 @@
+/* Общий фирменный стиль для всех страниц: презентация, сайт, CRM.
+   Цвет бренда меняется в одном месте: --brand и --brand-dark. */
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --brand: #0E9F82;        /* фирменный зелёно-бирюзовый */
+  --brand-dark: #0A6F5B;
+  --brand-soft: #E3F4EF;
+  --sea: #1B7FA3;          /* море Нячанга */
+  --sun: #F2B544;          /* песок и солнце, акцент */
+  --coral: #E8674A;        /* горячие заявки, тревога */
+  --ink: #0E1A19;          /* основной текст */
+  --ink-2: #4A5A58;        /* вторичный текст */
+  --line: #DCE3E1;
+  --paper: #F7F5EF;        /* фон страницы, тёплый песочный */
+  --card: #FFFFFF;
+  --radius: 18px;
+  --shadow: 0 10px 30px rgba(14, 26, 25, .08);
+  --font-display: 'Unbounded', system-ui, sans-serif;
+  --font-body: 'Manrope', system-ui, sans-serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.55;
+}
+h1, h2, h3 { font-family: var(--font-display); line-height: 1.15; margin: 0 0 .5em; letter-spacing: -.01em; }
+img { max-width: 100%; display: block; }
+a { color: var(--brand-dark); }
